@@ -9,6 +9,7 @@
 > pip install flake8-{bugbear,builtins,commas,docstrings,fixme,pep3101,polyfill,comprehensions,bandit}
 
 Также не забываем выставить проверку типизации - **basic**:
+
 ![image](https://user-images.githubusercontent.com/51759314/198858229-6735e76f-29b7-437e-a0e1-233f18ec37d0.png)
 
 ## Импорты
@@ -193,7 +194,10 @@ f = pkg_e.package_f.f
 
 ## Переносы строк с бинарным оператором
 
-Пишем согласно [W504](https://www.flake8rules.com/rules/W504.html), [PEP](https://peps.python.org/pep-0008/#should-a-line-break-before-or-after-a-binary-operator)
+Пишем согласно 
+
+[W504](https://www.flake8rules.com/rules/W504.html), 
+[PEP](https://peps.python.org/pep-0008/#should-a-line-break-before-or-after-a-binary-operator)
 
 ```python
 # Anti-pattern
